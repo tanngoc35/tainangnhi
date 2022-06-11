@@ -1,0 +1,382 @@
+*{margin:0 ;padding:0;box-sizing: border-box;}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    margin: auto;
+}
+.menu{
+    box-shadow: inset;
+    position: sticky;
+    position: -webkit-sticky;
+    box-shadow: 0px 2px 5px 2px rgb(184, 184, 184);
+}
+.navbar-brand img{
+    float: left;
+    padding-left: 40px;
+}
+.nav-item{
+    float: left;
+    line-height: 45px;
+    padding-left: 20px;
+    color: black;
+}
+.nav-item img{
+    width: 45px;
+    padding-bottom: 5px;
+}
+.nav-item a:hover{
+    color: #dc3545;
+}
+.form-control {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.btn-outline{
+    border: 1px solid black;
+    height: 40px;
+    margin-top: 10px;
+}
+.btn-warning{
+    width: 560px;
+    margin: auto;
+}
+.dangky{
+    margin-left: 65px;
+}
+.socials {
+    text-align: center;
+    margin-top: 59px; }
+.socials-icon {
+    display: inline-flex;
+    width: 41px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease;
+    margin-right: 19px; 
+}
+.fa-solid{
+    padding-left: 15px;
+}
+.socials-icon:hover {
+    background: #fff;
+    color: #000000;
+}   
+.temp{
+    font-size: 16px;
+    padding-right: 1;
+    font-weight: 600;
+}
+.center{
+    width: 530px;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.title{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #dc3545;
+}
+
+.back{
+    align-self: center;
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #dc3545;
+}
+.card{
+    margin: auto;
+    box-shadow: 0px 2px 5px 2px rgb(184, 184, 184);
+}
+
+.new{
+    font-size: 16px;
+    color: red;
+    font-weight: 700;
+}
+.old{
+    margin-left: 5px;
+    font-size: 14px;
+    color: #777;
+    text-decoration: line-through;
+}
+.onsale{
+    padding: 3px 5px;
+    background: red;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+.delete{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+.price{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #dc3545;
+}
+.cs-btn {
+    border: none;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 630px;
+    width: 100px;
+    left: 100px;
+}
+.cs-btn:hover{
+    background-color: red;
+}
+.btn-primary {
+    color: #fff;
+    background: #cb1c22;
+    border: 1px solid #cb1c22;
+    outline: 0;
+}
+.btn-primary:hover {
+    background: red;
+    border: 1px solid #cb1c22;
+}
+.btn-1{
+    background-color: #CB1C22;
+    color: white;
+}
+.btn-1:hover{
+    background-color: red;
+    color: white;
+}
+
+/*footer*/
+footer{
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .container .noi-dung{
+    margin-right: 30px;
+}
+footer  .container .noi-dung.about{
+    width:40%;
+}
+footer .container .noi-dung.about h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+footer .container .noi-dung.about p{
+    color: #999;
+}
+/*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+}
+.social-icon li {
+    list-style: none;
+}
+.social-icon li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.social-icon li a:hover{
+    background: #f00;
+}
+.fb li a:hover{
+    background: #4267B2;
+}
+.ins li a:hover{
+    background: linear-gradient(to bottom right, #405DE6, #5851DB , #833AB4 ,#C13584, #E1306C, #FD1D1D,#F56040, #F77737,#FCAF45,#FFDC80);;
+}
+.social-icon li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.links{
+   position: relative;
+   width: 25%;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links ul li a:hover{
+    color: #fff;
+}
+.contact h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info{
+    position: relative;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .info li span{
+    color: #999;
+}
+.contact .info li a{
+    color: #999;
+    text-decoration: none;
+}
+.btn--primary {
+    background: #222;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 8px 24px;
+}
+.btn--primary:hover {
+    background: #f00;
+}
+.btn--primary:active {
+    background: #f00;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+.form__field {
+    width: 90%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 8px 4px;
+}

@@ -1,0 +1,42 @@
+.container{
+    width: 1100px;
+    height: 450px;
+    border-radius: 1.25rem;
+    box-shadow: 0px 2px 10px 10px black;
+    margin: 70px auto;
+    background-color: rgb(95, 95, 95);
+    opacity:0.85;
+}
+.head{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(233, 232, 232);
+}
+.icon{
+    width: 330px;
+    height: 13px;
+}
+.content a img{
+    border: 1px solid black;
+}
+.col-wrap {
+    display: table;
+    width: 100%;
+}
+.col {
+    text-align: center;
+    display: table-cell;
+    padding: 1rem
+}
+.img{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.info{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
