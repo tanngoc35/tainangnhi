@@ -360,7 +360,7 @@ footer .container .noi-dung.about p{
     color: #999;
     text-decoration: none;
 }
-.btn {
+.btn--primary {
     display: inline-block;
     background: transparent;
     color: inherit;
